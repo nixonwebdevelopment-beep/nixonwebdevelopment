@@ -84,25 +84,25 @@ p {
 header {
   background: black;
   color: white;
-  padding: 2.4vw 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 100;
-  height: 0.01vw;
   margin-left: -0.42vw;
+  padding: 0;
 }
 
 header h1 {
-  margin-left: 1.04vw;
-  margin-top: -0.94vw;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
 }
 
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1vw;
+  padding: 0.6vw 1vw;
 }
 
 nav { position: relative; }
@@ -113,6 +113,12 @@ nav { position: relative; }
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.nav-links li {
+  margin: 0;
+  text-align: right;
+  font-size: 1.3vw;
 }
 
 .nav-links a {
@@ -136,8 +142,9 @@ nav { position: relative; }
 .headerp {
   width: 100%;
   overflow: hidden;
-  margin-top: -1.8vw;
   position: relative;
+  margin-top: -0.3vw;
+  padding-bottom: 0.4vw;
   animation-name: myAnimation;
   animation-duration: 60s;
   animation-timing-function: linear;
@@ -154,6 +161,8 @@ nav { position: relative; }
   margin-left: -100%;
   font-size: 1.5vw;
   word-spacing: 10vw;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 li {
@@ -162,7 +171,6 @@ li {
   list-style: none;
   font-family: "Alumni Sans SC", sans-serif;
   font-size: 1.3vw;
-  margin-top: -2.8vw;
   word-spacing: 1.04vw;
 }
 
