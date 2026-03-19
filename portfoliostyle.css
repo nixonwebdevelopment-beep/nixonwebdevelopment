@@ -183,14 +183,14 @@ footer h1 {
 }
 
 .section1 {
-  background-image: url(../media/group1.2.jpeg);
+  background-image: url(group1.2.jpeg);
   background-size: cover;
   background-attachment: fixed;
   line-height: 5vw;
 }
 
 .parallax {
-  background-image: url(../media/group1.1.jpeg);
+  background-image: url(group1.1.jpeg);
   min-height: 29vw;
   background-attachment: fixed;
   background-size: cover;
@@ -268,7 +268,7 @@ footer h1 {
 .bio-img-left  { float: left; }
 
 .section3 {
-  background-image: url(../media/background3.jpg);
+  background-image: url(background3.jpg);
   background-attachment: fixed;
   background-size: cover;
   padding-top: 4vw;
@@ -336,7 +336,7 @@ footer h1 {
 }
 
 .section4 {
-  background-image: url(../media/socialmediabackground.jpg);
+  background-image: url(socialmediabackground.jpg);
   background-attachment: fixed;
   background-size: cover;
   padding-top: 6vw;
