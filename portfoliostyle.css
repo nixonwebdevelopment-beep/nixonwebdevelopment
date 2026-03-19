@@ -145,7 +145,24 @@ html {
 }
 
 
+.section2-img {
+  float: right;
+  margin-right: 4vw;
+  width: 25vw;
+}
 
+.bio-img {
+  width: 19.8vw;
+  height: 26vw;
+}
+
+.bio-img-right {
+  float: right;
+}
+
+.bio-img-left {
+  float: left;
+}
 .parallax {
   background-image: url("group1.1.jpeg");
   min-height: 29vw;
