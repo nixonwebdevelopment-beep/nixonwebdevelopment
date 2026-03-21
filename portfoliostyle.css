@@ -234,9 +234,6 @@ footer h1 {
   cursor: pointer;
   text-align: center;
   border: none;
-}
-
-.section1button:hover {
   text-decoration: underline;
 }
 
