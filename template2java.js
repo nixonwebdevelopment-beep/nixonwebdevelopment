@@ -39,18 +39,15 @@ function clearTimers() {
   timers = [];
 }
 
-function splitHeading() {
-  if (splitDone) return;
-  const heading = document.querySelector('#section1p .animate-on-scroll');
-  if (heading) {
-    const text = heading.textContent.trim();
-    heading.innerHTML = text
-      .split('')
-      .map((char, i) =>
-        char === ' '
-          ? `<span class="letter" style="transition-delay:${i * 48}ms">&nbsp;</span>`
-          : `<span class="letter" style="transition-delay:${i * 48}ms">${char}</span>`
-      )
+heading.innerHTML = text
+  .split('')
+  .map((char, i) =>
+    char === ' '
+      ? `<span class="letter">&nbsp;</span>`
+      : `<span class="letter">${char}</span>`
+  )
+  .join('');
+
       .join('');
     heading.classList.remove('animate-on-scroll');
     splitDone = true;
