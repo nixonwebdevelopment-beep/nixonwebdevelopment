@@ -4,6 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="portfoliostyle.css">
@@ -12,10 +13,16 @@
 </head>
  
 <body>
- 
+ <div id="progress-bar"></div>
+ <div class="overlay" id="overlay">
+  <div class="overlay-inner">
+    <img id="overlay-img" src="">
+  </div>
+</div>
+
 <header id="topbar">
   <div class="header-inner">
-    <h1><a href="#top">Web Development Portfolio</a></h1>
+    <h1><a href="#top">Nixon Web Development</a></h1>
     <nav>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
       <ul class="nav-links">
@@ -34,20 +41,20 @@
  
 <div class="section1">
   <div class="parallax">
-    <p id="section1p">
+   <div class="section1text">
+    <div class="p2" style="margin-left: 4vw;">
       <span class="animate-on-scroll">nixon winger</span>
-    </p>
-    <div class="p2">
-      <span class="animate-on-scroll">Web Development
-        <br>
-        <button class="section1button"><a href="#contacts">Get Started</a></button>
-      </span>
     </div>
+    <div class="p2" style="margin-left: 4vw;">
+      <span class="animate-on-scroll">Web Development</span>
+    </div>
+	<div class="p4"><a href="#contacts"><span class="animate-on-scroll">Click here to get started</span></a></div>
+   </div>
   </div>
 </div>
  
 <footer>
-  <h1 id="portfolio">my work</h1>
+  <h1>my work</h1>
 </footer>
  
 <div class="section2">
@@ -55,48 +62,50 @@
     <h2><span class="fade-in-image">What have I done?</span></h2>
   </div>
   <div class="section2-inner fade-in-image">
-    <img src="codingimage1.png" class="section2-img fade-in-image">
     <div class="h2">
       <span class="fade-in-image">I am quite a new web designer, and considerably young (16 years of age). I have no professional experience, but I have designed a fair number of websites, each </span>
       <span class="fade-in-image">design better than the last. I am constantly working on my skills, improving on the daily and my future is only up from here. I am constantly looking for </span>
       <span class="fade-in-image">improvement and critique, as I believe that is what makes someone improve. The critique of others allows you to change relative to what others think, and that only </span>
       <span class="fade-in-image">allows room for improvement.</span>
     </div>
+	<img src="codingimage1.png" class="section2-img fade-in-image">
   </div>
 </div>
+
+<footer>
+<h1 id="portfolio">Portfolio</h1>
+</footer>
  
- <div class="section1">
- <br>
- </div>
 <div class="section3">
-  <div class="projects-heading animate-on-scroll">
-    <div class="p3">
-      <span class="animate-on-scroll">my projects (parallax gets messed up in screenshots)</span>
+    <div class="section3list">
+     <li id="li2"><a href="#project1"> Lennert Kraut Portfolio</a></li>
+     <li id="li2"><a href="https://nixonwebdevelopment-beep.github.io/Web5/" target="_blank"> Magic The Gathern Concept</a></li>
+     <li id="li2"><a href="https://nixonwebdevelopment-beep.github.io/AIweb/" target="_blank"> AIweb generation and showcase</a></li>
     </div>
-  </div>
- 
+
   <div class="project">
-    <div class="project-text">
-      <div class="under-image-p">
-        <span class="fade-in-image">Lennart Kraut Videography (Digital media project 1)</span>
-      </div>
-    </div>
     <div class="project-image">
-      <img src="website1.png" class="project-img fade-in-image">
-    </div>
-  </div>
- 
-  <div class="project reverse">
-    <div class="project-text">
-      <div class="under-image-p" style="text-align:center;">
-        <span class="fade-in-image">Magic the gathering (Concept website)</span>
-      </div>
-    </div>
-    <div class="project-image">
-      <img src="mtg.png" class="project-img fade-in-image">
-    </div>
+	 <div class="websitebox">
+  <img src="website1.png" class="project-img fade-in-image">
+  <div class="websitebox-label">Lennart Kraut Videography</div>
+</div>
+</div>
+ <div class="project-image">
+<div class="websitebox">
+  <img src="mtg.png" class="project-img fade-in-image">
+  <div class="websitebox-label">Magic The Gathering</div>
+</div>
+</div>
+
+<div class="project-image">
+<div class="websitebox">
+  <img src="website3.png" class="project-img fade-in-image">
+  <div class="websitebox-label">AIWeb Generation</div>
+</div>
   </div>
 </div>
+</div>
+
  
  
 <footer>
